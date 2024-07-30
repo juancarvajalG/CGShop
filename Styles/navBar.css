@@ -1,0 +1,25 @@
+:root{
+    --first-color:#F0E4D1;
+    --second-color:#495B6B;
+    --third-color:#2A90EB;
+    --fourth-color:#967A4D;
+    --fiveth-color:#495B6B;
+    --sixth-color:#413D37;
+}
+
+
+
+.nav{
+    background-color: var(--second-color);
+}
+
+.container {
+    display: flex;
+    gap: 20px; /* Espacio entre columnas */
+}
+.column {
+    flex: 1; /* Las columnas se expanden para ocupar el espacio disponible */
+    padding: 10px;
+    background-color: #f0f0f0;
+    border: 1px solid #ddd;
+}
