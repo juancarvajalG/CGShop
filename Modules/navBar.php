@@ -4,16 +4,16 @@
     <link rel="stylesheet" href="../Styles/navBar.css">
 </head>
 
-<div class="nav">
-    <div class="container">
-        <ul>
-            <li class="column"> <a href="./inicio.php">inicio</a></li>
-            <li class="column"> <a href="./store.php">Tienda</a> </li>
-            <li class="column"> <a href="./about-us.php">Nosotros</a> </li>
-            <li class="column"> <a href="./contact-us.php">Contactanos</a> </li>
+<header class="header">
+    <div class="logo">
+        <img src="../Img/LogoCGShop.png" alt="Logo CGShop">
+    </div>
+    <nav>
+        <ul class="nav-links">
+            <li><a href="../View/inicio.php">Inicio</a></li>
+            <li><a href="../View/about-us.php">Nosotros</a></li>
+            <li><a href="../View/store.php">Tienda</a></li>
         </ul>
-    </div>
-    <div class="imgLogo">
-        <img src="../Img/LogoCGShop.png" alt="">
-    </div>
-</div>
+    </nav>
+    <a href="../View/store.php" class="btn"><button>Contáctenos</button></a>
+</header>
