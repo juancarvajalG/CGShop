@@ -4,7 +4,7 @@
     <link rel="stylesheet" href="../Styles/navBar.css">
 </head>
 
-<header class="header">
+<footer class="header">
     <div class="logo">
         <img src="../Img/LogoCGShop.png" alt="Logo CGShop">
     </div>
@@ -24,4 +24,4 @@
         </ul>
     </nav>
     <a href="../View/contact-us.php" class="btn"><button>Contáctenos</button></a>
-</header>
+</footer>

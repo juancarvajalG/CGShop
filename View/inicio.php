@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CGShop inicio</title>
-    <link rel="stylesheet" href="./styles/inicio.css">
+    <link rel="stylesheet" href="../Styles/inicio.css">
 </head>
 
 <header>
@@ -14,15 +14,23 @@
     </div>
 </header>
 
-
 <body>
 
     <div class="Body">
         <h1>Pagina de inicio</h1>
+        <h1>Pagina de inicio</h1>
+        <h1>Pagina de inicio</h1>
+        <h1>Pagina de inicio</h1>
+        <h1>Pagina de inicio</h1>
+        <h1>Pagina de inicio</h1>
+        <h1>Pagina de inicio</h1>
+        
 
     </div>
     <footer>
-
+    <div>
+        <?php include '../Modules/footer.php'; ?>
+    </div>
     </footer>
 </body>
 

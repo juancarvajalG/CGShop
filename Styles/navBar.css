@@ -16,12 +16,8 @@
     font-size: 20px;
 }
 
-.body{
-    background-color: var(--first-color);
-}
-
 .header{
-    background-color: var(--fiveth-color);
+    background-color: var(--second-color);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -29,12 +25,8 @@
     padding: 5px 10px ;
 }
 
-/* .header .logo{
-    cursor: pointer;
-} */
-
 img{
-    height: 100px;
+    height: 120px;
     width: auto;
     cursor: pointer;
 }
@@ -50,6 +42,7 @@ img:hover{
 .nav-links li{
     display: inline-block;
     padding: 0 20px;
+    cursor: pointer;
 }
 
 .nav-links a{
@@ -58,14 +51,9 @@ img:hover{
     text-decoration: none;
 }
 
-.nav-links li:hover{
-    transform: scale(1.2);
-}
-
 .nav-links a:hover{
-    color: var(--fourth-color);
+    color: var(--first-color);
 }
-
 .btn button{
     font-weight: 200;
     color: var(--third-color);
@@ -81,4 +69,16 @@ img:hover{
     background-color: var(--white-color);
     color: var(--fourth-color);
     transform: scale(1.1);
+}
+
+.menu-vertical{
+    position: absolute;
+    display: none;
+    list-style: none;
+    width: 200px;
+    background-color: rgb(0, 0, 0, .5);
+}
+
+.nav-links > li:hover .menu-vertical{
+    display: block;
 }

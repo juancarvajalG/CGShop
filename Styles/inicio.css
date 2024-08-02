@@ -1,3 +1,14 @@
-Body{
+:root{
+    --first-color:#F0E4D1;
+    --second-color:#495B6B;
+    --third-color:#2A90EB;
+    --fourth-color:#967A4D;
+    --fiveth-color:#495B6B;
+    --sixth-color:#413D37;
+    --white-color:#ffff;
+}
+
+.Body{
     background-color: var(--first-color);
+    padding: 2%;
 }
