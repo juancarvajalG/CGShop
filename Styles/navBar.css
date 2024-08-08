@@ -1,13 +1,13 @@
 :root{
-    --first-color:#F0E4D1;
-    --second-color:#495B6B;
-    --third-color:#2A90EB;
-    --fourth-color:#967A4D;
-    --fiveth-color:#495B6B;
-    --sixth-color:#413D37;
+    --Beige-color:#F0E4D1;
+    --Gray-color:#495B6B;
+    --LightBlue-color:#2A90EB;
+    --Gold-color:#967A4D;
+    --LightGray-color:#495B6B;
+    --DarkGray-color:#413D37;
     --white-color:#ffff;
+    --black-color:#000000;
 }
-
 *{
     box-sizing: border-box;
     margin: 0;
@@ -17,7 +17,7 @@
 }
 
 .header{
-    background-color: var(--second-color);
+    background-color: var(--black-color);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -52,21 +52,21 @@ img:hover{
 }
 
 .nav-links a:hover{
-    color: var(--first-color);
+    color: var(--white-color);
 }
 .btn button{
     font-weight: 200;
-    color: var(--third-color);
+    color: var(--black-color);
     padding: 9px 25px ;
     background: var(--white-color);
     border: none;
-    border-radius: 30px;
+    border-radius: 15px;
     cursor: pointer;
     transition: all 0.5s ease 0s;
 }
 
 .btn button:hover{
-    background-color: var(--white-color);
+    background-color: var(--first-color);
     color: var(--fourth-color);
     transform: scale(1.1);
 }

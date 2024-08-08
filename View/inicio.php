@@ -17,21 +17,18 @@
 <body>
 
     <div class="Body">
-        <h1>Pagina de inicio</h1>
-        <h1>Pagina de inicio</h1>
-        <h1>Pagina de inicio</h1>
-        <h1>Pagina de inicio</h1>
-        <h1>Pagina de inicio</h1>
-        <h1>Pagina de inicio</h1>
-        <h1>Pagina de inicio</h1>
-        
-
+        <div class="HeadLine">
+            <div class="MainSign">
+                <h1>CG Shop</h1>
+                <h3>Vuelve tus ideas una realidad</h3>
+            </div>
+        </div>
     </div>
+
     <footer>
     <div>
         <?php include '../Modules/footer.php'; ?>
     </div>
     </footer>
 </body>
-
 </html>

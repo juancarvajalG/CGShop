@@ -1,14 +1,48 @@
 :root{
-    --first-color:#F0E4D1;
-    --second-color:#495B6B;
-    --third-color:#2A90EB;
-    --fourth-color:#967A4D;
-    --fiveth-color:#495B6B;
-    --sixth-color:#413D37;
+    --Beige-color:#F0E4D1;
+    --Gray-color:#495B6B;
+    --LightBlue-color:#2A90EB;
+    --Gold-color:#967A4D;
+    --LightGray-color:#495B6B;
+    --DarkGray-color:#413D37;
     --white-color:#ffff;
+    --black-color:#000000;
 }
 
-.Body{
-    background-color: var(--first-color);
-    padding: 2%;
+@font-face {
+    font-family: 'Griego';
+    src: url(/Resources/Font/AUGUSTUS.TTF);
+}
+
+@font-face {
+    font-family: 'designer';
+    src: url(/Resources/Font/DESIGNER.otf);
+}
+
+
+
+/* Esta sección es para el letrero y slogan de la empresa */
+
+.MainSign{
+    border: #967A4D 1px solid;
+    margin: 1%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.MainSign h1{
+    font-size: 80px;
+    font-family: 'Griego';
+}
+
+.MainSign h3{
+    font-size: 20px;
+    font-family: 'Griego';
+}
+
+.MainSign h1:hover{
+    transform: scale(1.1);
+    cursor: default;
 }
