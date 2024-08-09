@@ -32,23 +32,26 @@
 }
 
 .MainSign{
-    width: 50%;
+    width: auto;
     margin: 1%;
 }
 
 .MainSign > h1{
     font-size: 80px;
     font-family: 'Lato';
+    transition: all 0.5s ease 0s;
+}
+
+.MainSign h1:hover{
+    transform: scale(1.1);
+    color: var(--DarkGray-color);
 }
 
 .MainSign > h3{
     font-size: 20px;
 }
 
-.MainSign > h1:hover{
-    transform: scale(1.1);
-    color: var(--DarkGray-color);
-}
+
 
 /* Líneas de separación*/
 
