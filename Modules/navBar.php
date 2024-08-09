@@ -23,5 +23,9 @@
             </li>
         </ul>
     </nav>
-    <a href="../View/contact-us.php" class="btn"><button>Contáctenos</button></a>
+    <div class="iconForm">
+        <a href="../View/Login.php"><img src="../Resources/Img/Icons/usuario.png" alt="Logo de usuario"></a>
+        <a href="../View/contact-us.php" class="btn"><button>Contáctenos</button></a>
+    </div>
+    
 </header>

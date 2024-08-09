@@ -85,3 +85,22 @@
 .nav-links > li:hover .menu-vertical{
     display: block;
 }
+
+.iconForm{
+    height: 100%;
+    width: auto;
+    display: flex;
+    align-items: center; /*Los ubica en el centro en el eje x*/
+}
+
+.iconForm img{
+    height: 35px;
+    padding-right: 2%;
+    transition: all 0.5s ease 0s;
+}
+
+.iconForm img:hover{
+    height: 35px;
+    padding-right: 2%;
+    transform: scale(1.1);
+}

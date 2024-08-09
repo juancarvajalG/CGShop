@@ -1,6 +1,6 @@
 const images = document.querySelector('.carousel-images');
 const imageCount = images.children.length;
-const intervalTime = 3000; // Tiempo en milisegundos para cambiar de imagen
+const intervalTime = 5000; // Tiempo en milisegundos para cambiar de imagen
 
 let currentIndex = 0;
 

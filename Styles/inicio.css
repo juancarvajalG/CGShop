@@ -34,11 +34,11 @@
 .MainSign{
     width: 50%;
     margin: 1%;
-    font-family: 'Polariod';
 }
 
 .MainSign > h1{
     font-size: 80px;
+    font-family: 'Lato';
 }
 
 .MainSign > h3{
