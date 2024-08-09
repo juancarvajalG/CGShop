@@ -6,7 +6,7 @@
 
 <header class="header">
     <div class="logo">
-        <img src="../Img/LogoCGShop.png" alt="Logo CGShop">
+        <img src="../Resources/Img/LogoCGShop.png" alt="Logo CGShop">
     </div>
     <nav>
         <ul class="nav-links">

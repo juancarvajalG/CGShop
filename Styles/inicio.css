@@ -7,42 +7,98 @@
     --DarkGray-color:#413D37;
     --white-color:#ffff;
     --black-color:#000000;
+    --LightGold-color:#e6d330;
 }
 
 @font-face {
-    font-family: 'Griego';
-    src: url(/Resources/Font/AUGUSTUS.TTF);
-}
-
-@font-face {
-    font-family: 'designer';
+    font-family: 'Lato';
     src: url(/Resources/Font/DESIGNER.otf);
 }
 
 
-
 /* Esta sección es para el letrero y slogan de la empresa */
 
-.MainSign{
-    border: #967A4D 1px solid;
-    margin: 1%;
+.HeadLine{
+    cursor: default;
     display: flex;
     justify-content: center;
     text-align: center;
-    flex-direction: column;
+    background-color: var(--Beige-color);
+    border-bottom: var(--black-color) 5px solid;
+    /* flex-direction: column; */
 }
 
-.MainSign h1{
+.MainSign{
+    width: 50%;
+    margin: 1%;
+}
+
+.MainSign > h1{
     font-size: 80px;
-    font-family: 'Griego';
+    font-family: 'Lato';
 }
 
-.MainSign h3{
+.MainSign > h3{
     font-size: 20px;
-    font-family: 'Griego';
 }
 
-.MainSign h1:hover{
+.MainSign > h1:hover{
     transform: scale(1.1);
-    cursor: default;
+    color: var(--DarkGray-color);
+}
+
+/* Líneas de separación*/
+
+
+.BlackLine{
+    height: 8px;
+    width: auto;
+    background-color: #000000;
+}
+
+.SecondBlackLine{
+    height: 5px;
+    width: auto;
+    background-color: #000000;
+}
+
+.NoneLine{
+    height: 7px;
+    width: auto;
+}
+
+/* Apartado de los productos */
+
+.Products{
+    margin: 3% /*top, right, bottom, left*/
+}
+
+.TShirt{
+    display: flex;
+    justify-content: center;
+}
+
+.TShirt h2{
+    font-size: 70px;
+}
+
+/* Carrusel */
+
+.carousel {
+    position: relative;
+    width: 100%; /* Ancho del carrusel */
+    height: auto; /* Alto del carrusel */
+    overflow: hidden; /* Oculta las imágenes fuera del contenedor */
+}
+
+.carousel-images {
+    display: flex;
+    width: 300%; /* Tres imágenes, cada una ocupa el 100% del ancho */
+    height: 100%;
+    transition: transform 1s ease-in-out; /* Transición suave entre las imágenes */
+}
+
+.carousel-images img {
+    width: auto;
+    height: auto; /* Mantiene la proporción de la imagen */
 }
