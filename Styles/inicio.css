@@ -11,10 +11,14 @@
 }
 
 @font-face {
-    font-family: 'Lato';
+    font-family: 'Bonito';
     src: url(/Resources/Font/DESIGNER.otf);
 }
 
+@font-face {
+    font-family: 'Polariod';
+    src: url(/Resources/Font/POLAROID.otf);
+}
 
 /* Esta sección es para el letrero y slogan de la empresa */
 
@@ -25,17 +29,16 @@
     text-align: center;
     background-color: var(--Beige-color);
     border-bottom: var(--black-color) 5px solid;
-    /* flex-direction: column; */
 }
 
 .MainSign{
     width: 50%;
     margin: 1%;
+    font-family: 'Polariod';
 }
 
 .MainSign > h1{
     font-size: 80px;
-    font-family: 'Lato';
 }
 
 .MainSign > h3{
@@ -78,8 +81,9 @@
     justify-content: center;
 }
 
-.TShirt h2{
+.TShirt > h2{
     font-size: 70px;
+    font-family: 'Lato';
 }
 
 

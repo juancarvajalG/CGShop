@@ -30,14 +30,15 @@
             <div>
                 <?php include '../Modules/Carrousel.php';?>
             </div>
+            <div class="TShirt">
+                <h2>Camisas</h2>
+            </div>
         </div>
     </div>
 
-    <!-- <footer>
-    <div>
-        <?php include '../Modules/footer.php'; ?>
-    </div>
-    </footer> -->
+    <footer>
+
+    </footer>
 </body>
 
 <script src="../js/script.js"></script>

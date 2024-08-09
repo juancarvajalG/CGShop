@@ -15,5 +15,5 @@
 
 .carousel-images img {
     width: 100%;
-    height: auto; /* Mantiene la proporción de la imagen */
+    height: 600px; /* Mantiene la proporción de la imagen */
 }
