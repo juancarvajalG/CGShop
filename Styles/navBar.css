@@ -8,48 +8,50 @@
     --white-color:#ffff;
     --black-color:#000000;
 }
-*{
+/* *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     font-size: 20px;
-}
+} */
 
 .header{
     background-color: var(--black-color);
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 85px;
+    height: 90px;
     padding: 5px 10px ;
     font-family: 'Courier New';
 }
 
-img{
+.logo > img{
     height: 120px;
     width: auto;
     cursor: pointer;
 }
 
-img:hover{
+.logo > img:hover{
     transform: scale(1.2);
 }
 
 .nav-links{
+    margin-top: 15px;
     list-style: none;
 }
 
-.nav-links li{
+.nav-links > li{
     display: inline-block;
-    padding: 0 20px;
+    padding: 10px 20px;
     cursor: pointer;
+    font-size: 20px;
 }
 
 .nav-links a{
     font-size: 200;
     color: var(--white-color);
     text-decoration: none;
-}
+} 
 
 .nav-links a:hover{
     color: var(--Gold-color);

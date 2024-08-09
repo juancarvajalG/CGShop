@@ -8,9 +8,12 @@
 
 <div class="carousel">
     <div class="carousel-images">
-        <img src="https://static.wixstatic.com/media/110ec7_fa52e5a393fb4e679c922cd75492d70a~mv2.jpg/v1/fill/w_924,h_500,al_c,q_85,enc_auto/110ec7_fa52e5a393fb4e679c922cd75492d70a~mv2.jpg" alt="Imagen 1">
-        <img src="https://static.wixstatic.com/media/110ec7_fa52e5a393fb4e679c922cd75492d70a~mv2.jpg/v1/fill/w_924,h_500,al_c,q_85,enc_auto/110ec7_fa52e5a393fb4e679c922cd75492d70a~mv2.jpg" alt="Imagen 2">
-        <img src="https://static.wixstatic.com/media/110ec7_fa52e5a393fb4e679c922cd75492d70a~mv2.jpg/v1/fill/w_924,h_500,al_c,q_85,enc_auto/110ec7_fa52e5a393fb4e679c922cd75492d70a~mv2.jpg" alt="Imagen 3">
+        <img src="https://montink.s3.amazonaws.com/mockups/222414/Preto_1336019.png"
+            alt="Imagen 1">
+        <img src="https://montink.s3.amazonaws.com/mockups/222414/Branco_1336019.png"
+            alt="Imagen 2">
+        <img src="https://montink.s3.amazonaws.com/mockups/222414/Amarelo-canario_1336019.png"
+            alt="Imagen 3">
     </div>
 </div>
 
