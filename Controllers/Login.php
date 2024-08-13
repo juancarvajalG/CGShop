@@ -3,34 +3,23 @@ session_start();
 
 include '../DataBase/config.php';
 
-// Obtener datos del formulario
-$username_db = $_POST['username'];
-$password = $_POST['password'];
+if($_SERVER["REQUEST_METHOD"]=="POST"){
+    $username_login = $_POST['username'];
+    $password_login = $_POST['password'];
 
-// Preparar y ejecutar la consulta para buscar al usuario
-$sql = "SELECT * FROM usuarios WHERE username = ?"; // Cambia "usuarios" por el nombre de tu tabla
-$stmt = $conn->prepare($sql);
-$stmt->bind_param("s", $username);
-$stmt->execute();
-$result = $stmt->get_result();
+    //Preparamos y ejecutamos la consulta SQL
+    $stmt = $conn->prepare("SELECT id FROM users where user = ? AND password = ?");
+    $stmt->bind_param("ss",$username_login,$password_login);
+    $stmt->execute();
+    $stmt->store_result();
 
-if ($result->num_rows > 0) {
-    // Usuario encontrado, verificar la contraseña
-    $user = $result->fetch_assoc();
-    if (password_verify($password, $user['password'])) { // Asumiendo que las contraseñas están hasheadas
-        // Autenticación exitosa
-        $_SESSION['username'] = $username;
-        header("Location: ../View/inicio.php");
+    if($stmt->num_rows > 0){
+        $_SESSION['user']=$username_login;
+        header("Location:../View/inicioAdmin.php");
         exit();
-    } else {
-        // Contraseña incorrecta
-        echo "Usuario o contraseña incorrectos.";
+    }else{
+        echo "Usuario o contraseña incorrecto";
     }
-} else {
-    // Usuario no encontrado
-    echo "Usuario o contraseña incorrectos.";
+    $stmt->close();
+    $conn->close();
 }
-
-// Cerrar la conexión
-$stmt->close();
-$conn->close();

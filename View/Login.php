@@ -17,7 +17,8 @@
             </label>
             <input type="text" name="username"
             placeholder="Usuario" id="username" required>
-            <label for="password">
+            <!-- El label en est ecaso se utiliza para poder darle un incono aparte del placeholder -->
+            <label for="password"> 
                 <i class="fas fa-lock"></i>
             </label>
             <input type="password" name="password"
