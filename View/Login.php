@@ -10,8 +10,8 @@
 </head>
 <body>
     <div class="login">
-        <h1>Sistema de Login Básico ConfiguroWeb</h1>
-        <form action="autenticacion.php" method="post">
+        <h1>Login</h1>
+        <form action="../Controllers/Login.php" method="post">
             <label for="username">
                 <i class="fas fa-user"></i>
             </label>

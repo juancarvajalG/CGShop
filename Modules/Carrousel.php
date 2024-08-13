@@ -8,7 +8,8 @@
 
 <div class="carousel">
     <div class="carousel-images">
-        <img src="https://montink.s3.amazonaws.com/mockups/222414/Preto_1336019.png"
+        <!-- Las imagenes tienen que tener una resolución de 3170 x 1575 -->
+        <img src="https://montink.s3.amazonaws.com/mockups/222414/Preto_1336019.png" 
             alt="Imagen 1">
         <img src="https://montink.s3.amazonaws.com/mockups/222414/Branco_1336019.png"
             alt="Imagen 2">
