@@ -16,6 +16,11 @@
 
 <body>
 
+<?php 
+session_start()
+
+?>
+
     <div class="Body">
         <div class="HeadLine">
             <div class="MainSign">

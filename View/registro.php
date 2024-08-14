@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -10,23 +9,34 @@
 </head>
 <body>
     <div class="login">
-        <h1>Login</h1>
-        <form action="../Controllers/Login.php" method="post">
+        <h1>Registro</h1>
+        <form action="../Controllers/registro.php" method="post">
             <label for="username">
                 <i class="fas fa-user"></i>
             </label>
             <input type="text" name="username"
-            placeholder="Usuario" id="username" required>
+            placeholder="Nombre" id="username" required>
             <!-- El label en est ecaso se utiliza para poder darle un incono aparte del placeholder -->
+            <label for="password"> 
+                <i class="fas fa-user"></i>
+            </label>
+            <input type="text" name="userlastname"
+            placeholder="Apellido" id="userlastname" required>
+            <label for="password"> 
+                <i class="fas fa-user"></i>
+            </label>
+            <input type="text" name="user"
+            placeholder="Usuario" id="user">
             <label for="password"> 
                 <i class="fas fa-lock"></i>
             </label>
             <input type="password" name="password"
-            placeholder="Contraseña" id="password" required>
-            <input type="submit" value="Acceder">
+            placeholder="Contraseña" id="password">
+
+            <input type="submit" value="Registrar">
         </form>
-        <a href="../View/registro.php">registro</a>
         <a href="../View/inicio.php">Volver</a>
+        <a href="../View/Login.php">Iniciar sesión</a>
     </div>
 </body>
 </html>
